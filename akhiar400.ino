@@ -3,10 +3,20 @@
 #include <BluetoothSerial.h>
 
 // ----- Motor PWM Pins & Channels -----
-const int R1PWM_pin = 19;  // Right motor forward
-const int R2PWM_pin = 21;  // Right motor reverse
-const int L1PWM_pin = 23;  // Left motor forward
-const int L2PWM_pin = 22;  // Left motor reverse
+const int R1PWM_pin = 21;  // Right motor forward
+const int R2PWM_pin = 19;  // Right motor reverse
+const int L1PWM_pin = 22;  // Left motor forward
+const int L2PWM_pin = 23;  // Left motor reverse
+/***********
+*  PINS : 
+*  Right motor RPWM : 23
+*  RIght motor LPWM: 22
+*  Left motor LPWM: 21
+*  Left motor RPWM: 19
+*
+***********/
+
+
 
 const int R1_channel = 0;
 const int R2_channel = 1;
